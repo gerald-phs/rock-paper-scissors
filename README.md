@@ -14,7 +14,7 @@ graph TD;
 ```
 And `rock` "breaks" `scissors`. That then "cuts" `paper`, which finally "wraps around" a `rock`. *Ad infinitum*. It'll rotate like that. So, as we are playing against the browser, (T.O.P. said it: I've no clue how one's to play against a *browser*, but that's where `JS` runs so yeah). We need to get the computer's move. It would only have 3 choices. Therefore, it can choose between 0, 1, 2 or 1, 2 or 3 (or 2, 3, 4 and even 3, 4, 5 if I stop to think about it). 0, 1 and 2 sounds weird but okay. How can a computer choose? JavaScript can't do operations on *words* per se, so it's numbers and *"Welcome to programming, lad! Remember math? WELL HERE IT IS* and all the rest of it. I'm already rebuilding my math (which is somewhat decent) by literally watching videos by Khan Academy on how to **count**. Moving on, the computer chooses. Through numbers. I've learned in "C++ Primer" how to iterate through numbers sequentially through increments, but that's all I know for now. Let's try to build an ***RNG***.  
 
->We'll be sure to hard-code absolutely unfathomably unfair probabilities in our RNGs in the future so we can get back at Black Desert Online for being such jerks with their RNG implementations that broke all my stuff. *Sigh.* Okay.  
+>We'll be sure to hard-code unfathomably unfair probabilities in our RNGs in the future so we can get back at Black Desert Online for being such jerks with their RNG implementations that broke all my stuff. *Sigh.* Okay.  
 
 1. Implement random number generation using JavaScript
 	a. How?
