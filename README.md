@@ -25,7 +25,7 @@ function RNG(range) {
   return Math.floor(Math.random() * range);
 }
 ```
-MDN is awesome. Anyway, as far as I can tell,`Math.floor()`'s a sort of "truncator". A function is defined with `range` as a parameter. We will call that with `3` as an argument. Apparently, generating values between 0 inclusive and 1 exclusive and multiplying them by `range` will always net us random values, from 0 all the way up to `range` exclusive. That's because it'll generate 2.9999999999999 or whatever, which is not exactly 3. However, the **amount** of **entities** we have available to work with are **three, discrete numbers** which fit our needs perfectly. Now it's time for our move.  
+MDN is awesome. Anyway, as far as I can tell, `Math.floor()`'s a sort of "truncator". A function is defined with `range` as a parameter. We will call that with `3` as an argument. Apparently, generating values between 0 inclusive and 1 exclusive and multiplying them by `range` will always net us random values, from 0 all the way up to `range` exclusive. That's because it'll generate 2.9999999999999 or whatever, which is not exactly 3. However, the **amount** of **entities** we have available to work with are **three, discrete numbers** which fit our needs perfectly. Now it's time for our move.  
 
 2. Get user's move.
 I'm tempted to just use `prompt()` xDDDDDD how's that for my *great GUI*... That'll let the user play just fine for now. Let's leave it at that. What? Yes, of course I'm adding some flair to it.
