@@ -16,8 +16,8 @@ And `rock` "breaks" `scissors`. That then "cuts" `paper`, which finally "wraps a
 
 >We'll be sure to hard-code unfathomably unfair probabilities in our RNGs in the future so we can get back at Black Desert Online for being such jerks with their RNG implementations that broke all my stuff. *Sigh.* Okay.  
 
-1. Implement random number generation using JavaScript
-	a. How?
+1. Implement random number generation using JavaScript  
+a. How?
 [Like this.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 ```
