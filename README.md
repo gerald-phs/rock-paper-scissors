@@ -30,7 +30,7 @@ MDN is awesome. Anyway, as far as I can tell, `Math.floor()`'s a sort of "trunca
 2. Get user's move.
 I'm tempted to just use `prompt()` xDDDDDD how's that for my *great GUI*... That'll let the user play just fine for now. Let's leave it at that. What? Yes, of course I'm adding some flair to it.
 
-3. Throw user's move against computer's move at maximum speed
+3. Throw user's move against computer's move at maximum speed  
 This is going to require `if...else` statements, flow control and stuff. Assign `0`, `1` and `2` to their corresponding `rock`, `paper`, `scissors` game moves for readability...  
 ```
 const ROCK = 0; // 33.33% chance of winning? probably not
